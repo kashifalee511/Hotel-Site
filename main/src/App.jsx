@@ -8,7 +8,7 @@ export default function App() {
     <div>
      {!isOwnerpath && <Navbar/>}
      <Routes>
-      <Route path='/home' element={<Home/>}/>
+      <Route path='/' element={<Home/>}/>
      </Routes>
     </div>
   )
