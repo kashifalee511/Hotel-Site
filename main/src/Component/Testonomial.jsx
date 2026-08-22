@@ -5,7 +5,7 @@ export default function Testonomial() {
   return (
     <div>
       <div className='py-4'>
-        <h1 className='text-center'>What Our Guest Says</h1>
+        <h1 className='text-center text-white'>What Our Guest Says</h1>
         <p className='px-4 md:px-6 '>Discover why discerning travelers consistently choose QuickStay for their exclusive and luxurious accommodations around the world.</p>
       </div>
        <div className="flex flex-wrap items-center justify-center gap-6 mt-20 mb-10">

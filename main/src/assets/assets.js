@@ -145,6 +145,8 @@ export const roomsDummyData = [
     {
         "_id": "67f7647c197ac559e4089b96",
         "hotel": hotelDummyData,
+        "name": "Skyline Suite",
+        "description": "A spacious suite with room service, mountain views, and pool access.",
         "roomType": "Double Bed",
         "pricePerNight": 399,
         "amenities": ["Room Service", "Mountain View", "Pool Access"],
@@ -157,6 +159,8 @@ export const roomsDummyData = [
     {
         "_id": "67f76452197ac559e4089b8e",
         "hotel": hotelDummyData,
+        "name": "Mountain Deluxe",
+        "description": "A comfortable double room made for relaxing with room service and scenic views.",
         "roomType": "Double Bed",
         "pricePerNight": 299,
         "amenities": ["Room Service", "Mountain View", "Pool Access"],
@@ -169,6 +173,8 @@ export const roomsDummyData = [
     {
         "_id": "67f76406197ac559e4089b82",
         "hotel": hotelDummyData,
+        "name": "Garden Room",
+        "description": "A bright room with complimentary breakfast, WiFi, and convenient room service.",
         "roomType": "Double Bed",
         "pricePerNight": 249,
         "amenities": ["Free WiFi", "Free Breakfast", "Room Service"],
@@ -181,6 +187,8 @@ export const roomsDummyData = [
     {
         "_id": "67f763d8197ac559e4089b7a",
         "hotel": hotelDummyData,
+        "name": "Urban Comfort ",
+        "description": "A practical single room with WiFi, room service, and access to the pool.",
         "roomType": "Single Bed",
         "pricePerNight": 199,
         "amenities": ["Free WiFi", "Room Service", "Pool Access"],

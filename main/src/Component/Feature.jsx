@@ -9,7 +9,7 @@ export default function Feature() {
   return (
     <div className='flex flex-col items-center  md:px-10 lg:px-4 py-20'>
         <div className='py-5 '>
-            <h1>Featured Destination</h1>
+            <h1 className='text-white'>Featured Destination</h1>
             <p>Discover our handpicked selection of exceptional properties around the<br/> world  offering unparalleled luxury and unforgettable experiences.</p>
         </div>
       <div className='flex flex-wrap items-center gap-5 justify-center mt-20'>

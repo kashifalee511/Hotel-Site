@@ -54,8 +54,8 @@ export default function Footer() {
                 </div>
 
                 <div className='max-w-80'>
-                    <p className='text-lg text-gray-100'>STAY UPDATED</p>
-                    <p className='mt-3 text-sm text-white '>
+                    <p className='text-lg text-start text-gray-100'>STAY UPDATED</p>
+                    <p className='mt-3 text-start text-sm text-white '>
                         Subscribe to our newsletter for inspiration and special offers.
                     </p>
                     <div className='flex items-center mt-4'>

@@ -6,7 +6,7 @@ export default function ExclusiveOffer() {
    <div>
      <div className='lg:flex justify-between px-5'>
       <div className='px-4 py-10'>
-        <h1 className='lg:text-start'>Exclusive Offer</h1>
+        <h1 className='lg:text-start text-white'>Exclusive Offer</h1>
       <p>Take advantage of our limited-time offers and special packages to enhance your stay and create unforgettable memories.</p>
       </div> 
         <button className= 'text-white  '>View All Offer</button>
