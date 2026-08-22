@@ -16,12 +16,12 @@ export default function HotelCard({room,index}) {
             </div>
             </div>
             <div className='flex items-center gap-1'>
+                <span className='text-start'>{room.hotel.address}</span>
                 <img src={assets.locationIcon} alt="" />4.5
-                <span>{room.hotel.address}</span>
             </div>
             <div className='flex items-center justify-between mt-4'>
                 <p><span className='text-xl text-gray-800'>${room.pricePerNight}</span>/Night</p>
-                <button className='px-4 py-2 font-medium border border-gray-100 rounded hover:bg-gray-100 transition-all cursor-pointer text-sm'>Book Now</button>
+                <button className='px-4 py-2 font-medium border border-gray-400 rounded hover:bg-gray-100 transition-all cursor-pointer text-sm'>Book Now</button>
             </div>
         </div>
     </Link>

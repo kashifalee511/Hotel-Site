@@ -6,9 +6,9 @@ export default function Hero() {
     <>
     <div className='flex flex-col justify-center items-center px-6 md:px-16 lg:px-24 xl:px-32
      text-white bg-[url("./src/assets/reee.jpg")] bg-no-repeat bg-center bg-cover h-screen'>
-      <h4 className='text-white bg-black w-fit text-start items-start rounded-2xl px-4'>The Ultimate Hotel Experience</h4>
+      <h4 className='text-white bg-black w-fit text-start py-1 items-start mt-10 rounded-2xl px-4'>The Ultimate Hotel Experience</h4>
        <h1>The Hotel In Mountain</h1>
-       <p>Unparalleled luxury and comfort await at the world's most exclusive hotels and resorts. Start your journey today.</p>
+       <p>Unparalleled luxury and comfort await at the world's <br/> most exclusive hotels and resorts. Start your journey today.</p>
         <form className='bg-white text-gray-500 rounded-lg px-6 py-3 mt-5  flex flex-col md:flex-row max-md:items-start gap-4 max-md:mx-auto'>
 
             <div>
