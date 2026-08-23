@@ -56,7 +56,7 @@ const Navbar = () => {
                         </a>
                     ))}
                     <button className={`border px-4 py-1 text-sm font-light rounded-full cursor-pointer ${isScrolled ? 
-                        'text-black' : 'text-white'} transition-all`}  onClick={()=>navigate('/owner')}>
+                        'text-black' : 'text-white'} transition-all`}  onClick={()=>navigate('/my-booking')}>
                         Dashboard
                     </button>
                 </div>
@@ -102,7 +102,7 @@ const Navbar = () => {
                     ))}
 
                     {user && <button className="border px-4 py-1 text-sm font-light rounded-full cursor-pointer transition-all"
-                    onClick={()=>navigate('/owner')}>
+                    onClick={()=>navigate('/my-booking')}>
                         Dashboard
                     </button>}
 

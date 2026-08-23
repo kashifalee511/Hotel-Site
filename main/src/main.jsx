@@ -10,7 +10,7 @@ if (!PUBLISHABLE_KEY) {
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-  <ClerkProvider    publishableKey={import.meta.env.VITE_CLERK_PUBLISHABLE_KEY}
+  <ClerkProvider    publishableKey={PUBLISHABLE_KEY}
   afterSignOutUrl="/">
     <App />
   </ClerkProvider>
